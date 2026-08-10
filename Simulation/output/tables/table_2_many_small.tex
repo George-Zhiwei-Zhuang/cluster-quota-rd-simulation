@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\centering
+\caption{Increasing the number of small clusters improves precision for the assignment contrast but does not eliminate the adjacent-rank baseline gap.}
+\label{tab:many-small-simulation}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Baseline slope & G & B & Delta & Mean estimate & Bias wrt Delta & Mean SE & Coverage(Delta) & Coverage(tau) \\
+\midrule
+0.000 & 50 & 0.000 & 1.000 & 1.000 & -0.000 & 0.199 & 0.946 & 0.946 \\
+0.000 & 200 & 0.000 & 1.000 & 1.000 & -0.000 & 0.100 & 0.951 & 0.951 \\
+0.000 & 800 & 0.000 & 1.000 & 0.999 & -0.001 & 0.050 & 0.952 & 0.952 \\
+0.000 & 3200 & 0.000 & 1.000 & 1.000 & -0.000 & 0.025 & 0.949 & 0.949 \\
+4.200 & 50 & 0.200 & 1.200 & 1.204 & 0.004 & 0.200 & 0.946 & 0.819 \\
+4.200 & 200 & 0.200 & 1.200 & 1.201 & 0.001 & 0.101 & 0.947 & 0.484 \\
+4.200 & 800 & 0.200 & 1.200 & 1.200 & -0.000 & 0.050 & 0.947 & 0.024 \\
+4.200 & 3200 & 0.200 & 1.200 & 1.200 & 0.000 & 0.025 & 0.949 & 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,20 @@
+\begin{table}[!htbp]
+\centering
+\caption{Marginal inference and pathwise coupling across bandwidth regimes.}
+\label{tab:large-cluster-simulation}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Regime & m & kappa & Bias(F) & RMSE(F) & Coverage(F) & Corr(F,R) & Window overlap & Var(diff)/(2V) \\
+\midrule
+Partial overlap & 1000 & 1.000 & -0.022 & 0.898 & 0.908 & 0.047 & 0.423 & 1.194 \\
+Partial overlap & 4000 & 1.000 & -0.003 & 0.611 & 0.936 & 0.080 & 0.420 & 1.002 \\
+Partial overlap & 16000 & 1.000 & 0.015 & 0.440 & 0.949 & 0.081 & 0.414 & 0.933 \\
+Strong overlap & 1000 & 7.943 & -0.007 & 0.320 & 0.943 & 0.586 & 0.890 & 0.448 \\
+Strong overlap & 4000 & 12.040 & -0.001 & 0.178 & 0.950 & 0.746 & 0.923 & 0.258 \\
+Strong overlap & 16000 & 18.249 & -0.001 & 0.105 & 0.948 & 0.811 & 0.949 & 0.197 \\
+Vanishing overlap & 1000 & 0.752 & -0.034 & 1.006 & 0.937 & 0.010 & 0.350 & 1.267 \\
+Vanishing overlap & 4000 & 0.654 & 0.028 & 0.768 & 0.934 & -0.039 & 0.299 & 1.171 \\
+Vanishing overlap & 16000 & 0.570 & 0.011 & 0.594 & 0.946 & 0.046 & 0.273 & 1.077 \\
+\bottomrule
+\end{tabular}
+\end{table}

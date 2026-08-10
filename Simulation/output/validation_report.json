@@ -1,0 +1,23 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "coupling_correlation_orders_regimes": true,
+    "fixed_density_near_one": true,
+    "large_all_cells_present": true,
+    "large_coverage_reasonable": true,
+    "large_success_rate_above_95pct": true,
+    "many_small_Delta_coverage_reasonable": true,
+    "many_small_tau_coverage_collapses_when_B_positive": true,
+    "many_small_tau_coverage_when_B_zero": true,
+    "recentered_density_near_two": true,
+    "required_outputs_exist": true,
+    "window_overlap_orders_regimes": true
+  },
+  "software_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "platform": "Linux-6.12.13-x86_64-with-glibc2.39",
+    "python": "3.12.13 (main, Mar  3 2026, 14:59:34) [Clang 21.1.4 ]",
+    "pyyaml": "6.0.3"
+  }
+}
